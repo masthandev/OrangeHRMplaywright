@@ -1,0 +1,12 @@
+{
+    "url":"",
+    "endpoint": "/api/v1/",
+    "query": "name=John&age=30",
+    "statusCode": [200, 404, 500],
+    "method": ["GET", "POST", "PUT", "DELETE"],
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer"
+    }
+
+}

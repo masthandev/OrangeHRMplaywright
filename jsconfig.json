@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "checkJs": true,
+      "jsx": "react",
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "types": [
+        "node",
+        "@playwright/test"
+      ],
+      "paths": {
+        "*": ["node_modules/*"]
+      }
+    },
+    "include": ["./**/*.js"]
+  }
+  
